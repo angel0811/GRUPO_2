@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 126820740}
   - component: {fileID: 126820739}
   - component: {fileID: 126820741}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -490,6 +490,8 @@ GameObject:
   - component: {fileID: 1223409346}
   - component: {fileID: 1223409348}
   - component: {fileID: 1223409349}
+  - component: {fileID: 1223409351}
+  - component: {fileID: 1223409350}
   m_Layer: 0
   m_Name: Pixel Art (Goku)_0
   m_TagString: Untagged
@@ -644,6 +646,42 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1223409350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223409345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a930497ceec6004aa9145e14f0aada0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  speed: 5
+  jumpForce: 5
+  rayLength: 0.5
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!114 &1223409351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223409345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a930497ceec6004aa9145e14f0aada0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  speed: 5
+  jumpForce: 5
+  rayLength: 0.5
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1398917392
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,7 +693,7 @@ GameObject:
   - component: {fileID: 1398917394}
   - component: {fileID: 1398917393}
   - component: {fileID: 1398917395}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -793,7 +831,7 @@ GameObject:
   - component: {fileID: 2044107648}
   - component: {fileID: 2044107647}
   - component: {fileID: 2044107649}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
